@@ -1,0 +1,718 @@
+body{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    font-family:Arial;
+    box-sizing:border-box;
+    background-color:#FCFAF1;
+}
+
+.Main_Panel{
+    background-image:url("Images/texture.jpg");
+    background-size:contain;  
+}
+
+
+/* Navbar */
+
+.navbar{
+    height:130px;
+    background-color:#929580;
+    color:#000000;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+
+}
+
+.navtitle{
+  display:flex;
+  align-items:center;
+}
+
+.navtitle a{
+    text-decoration:none;
+}
+
+.navlogo{
+    margin-left:25px;
+}
+
+.navName{
+    padding-left:15px;
+    font-size:1.8rem;
+    color:#283618;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.searchlogo{
+    margin-left:15px;
+}
+
+.searchBar{
+    height:60px;
+    width:800px;
+    border:0.5px solid grey;
+    margin-left:30px;
+    border-radius:10px;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    background-color:#283618;
+}
+
+
+.searchBar input{
+margin:15px;
+height:50px;
+width:700px;
+border-radius:10px;
+font-size:1.4rem;
+background-color:#FCFAF1;
+}
+
+.navlogin{
+  height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.navlogin a{
+color:black;
+font-size:1.5rem;
+margin-left:50px;
+font-weight:700;
+}
+
+marquee{
+    margin:0px;
+    font-size:1.5rem;
+    color:#1b4965;
+}
+
+/* Nav_options */
+
+
+.nav_options{
+    display:flex;
+    justify-content:space-around;
+    align-items:end;
+    font-size:1.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom:1px solid #E5E5E5;
+    background-color:#ECE4C3;
+}
+
+.nav_options a{
+text-decoration:none;
+color:#283618;
+
+}
+
+
+marquee{
+   color:#283618;
+}
+
+marquee p{
+    margin-bottom:0px;
+    font-size:1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#F3DE89;
+}
+
+
+
+/* Login_Panel */
+
+.Login_panel{
+    height:1000px;
+    background-color:#d9ddd4;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    
+}
+
+
+/* Login */
+
+.Login{
+    height:700px;
+    width:500px;
+    border:2px solid #283618;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    margin-top:50px;
+    background-color:#E5E5E5;
+    
+}
+
+.login{
+    margin-bottom:100px;
+}
+
+form{
+    text-align:center;
+    font-size:1rem;
+}
+
+form p{
+    font-size:1.5rem;   
+}
+
+form a{
+    text-decoration:none;
+    color:#283618;    
+}
+
+.style{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+
+.Masjid_List{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+button{
+    height:30px;
+    width:300px;
+    border:0.5px solid black;
+    border-radius:5px;
+    margin-top:20px;
+    color:#ECE4C3;
+    background-color:#283618;    
+}
+
+
+
+
+
+
+
+
+
+/* Timing_Panel */
+
+.Masjid{
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+
+.masjid{
+    margin:20px;
+}
+
+
+.Timing_Panel{
+    height:350px;
+    width:1150px;
+    background-color:#FFF8D9;
+    margin-top:30px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:start;
+    flex-wrap:wrap;
+    background-size:cover;
+}
+
+.Masjid_Name{
+    height:55px;
+}
+
+
+.Masjid_Name p{
+    font-size:1.8rem;
+    margin:0px;
+    padding:15px 0px 5px 20px;
+    color:black;
+}
+
+.Masjid_Name a{
+    padding:10px 0px 5px 20px;
+    color:black;
+}
+
+
+.Date p{
+    font-size:1rem;
+    margin:0px;
+    padding:15px 20px 0px 0px;
+}
+
+
+
+/* Time Box */
+
+.Time_Box{
+    width:1100px;
+    height:200px;
+    margin:0px 20px 0px 20px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-bottom:50px;
+    padding-bottom:15px;
+}
+
+
+/* Fajr */
+
+.Fajr{
+width:200px;
+height:150px;
+background-image:url("Images/fajr.jpg");
+background-size:cover;
+color:black;
+border-radius:15px;
+font-size:1.5rem;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+.Fajr_Title{
+    margin-bottom:5px;    
+}
+
+.Fajr_Time{
+    font-size:1.6rem;
+}
+
+
+
+/* Zuhr */
+
+.Zuhr{
+    width:200px;
+    height:150px;
+    background-image:url("Images/zuhr.jpg");
+    background-size:cover;
+    color:black;
+    background-size:cover;
+    border-radius:15px;
+    font-size:1.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    }
+    
+    .Zuhr_Title{
+        margin-bottom:5px;    
+    }
+    
+    .Zuhr_Time{
+        font-size:1.6rem;
+    }
+
+
+
+/* Asr */
+
+    .Asr{
+        width:200px;
+        height:150px;
+        background-image:url("Images/asr.jpg");
+        background-size:cover;
+        color:black;
+        border-radius:15px;
+        font-size:1.5rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        }
+        
+        .Asr_Title{
+            margin-bottom:5px;    
+        }
+        
+        .Asr_Time{
+            font-size:1.6rem;
+        }
+
+
+/* Maghrib */
+
+
+        .Maghrib{
+            width:200px;
+            height:150px;
+            background-image:url("Images/maghrib.jpg");
+            background-size:cover;
+            color:black;
+            border-radius:15px;
+            font-size:1.5rem;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            }
+            
+            .Maghrib_Title{
+                margin-bottom:5px;    
+            }
+            
+            .Maghrib_Time{
+                font-size:1.6rem;
+            }
+
+
+            
+            /* Isha */
+
+
+            .Isha{
+                width:200px;
+                height:150px;
+                background-color:#F6E8AD;
+                color:#F1E7BF;
+                background-image:url("Images/Isha.jpg");
+                background-size:cover;
+                border-radius:15px;
+                font-size:1.5rem;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+                }
+                
+                .Isha_Title{
+                    margin-bottom:5px;    
+                }
+                
+                .Isha_Time{
+                    font-size:1.6rem;
+                }
+
+
+
+   /* Footer */
+
+   footer{
+    height:80px;
+    align-items:center;
+    background-color:#FCF9EF;
+    margin-top:0px;
+    text-decoration:none;
+    flex-direction: row;
+    border-top:1px solid black;
+   }
+
+
+.copyrights{
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:space-around; 
+    align-items:center; 
+}
+
+
+.copyrights p{
+    margin:10px;
+}
+
+
+
+                
+
+table{
+    text-align:center;
+    border-radius:10px;
+    font-size:2rem;
+    margin-top:30px;
+    color:#283618;
+
+}
+
+th{
+    border:1px solid #F1E7BF;
+    border-radius:5px;
+    padding:15px;
+    color:#F1E7BF;
+    
+
+}
+td{
+    border:1px solid #F1E7BF;
+    border-radius:5px;
+    color:#F1E7BF;
+    padding:20px;
+
+}
+
+
+
+/* Jummah Timings */
+
+
+.KNT_Jummah{
+    font-size:4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#283618;
+    text-align:center;
+    margin:10px 20px 0px 20px;
+
+
+}  
+
+.Jummah_Timings_Table{
+    color:#283618;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    background-image: url("Images/texture5.jpg");
+    background-size:cover;
+}
+
+
+
+
+/* Eid_Namaz_Table */
+
+.KNT_Eid{
+    font-size:4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#283618;
+    text-align:center;
+    margin:20px 20px 0px 20px;
+  
+
+}  
+
+
+.Eid_Timings_Table{
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    background-image: url("Images/asr.jpg");
+    background-size:cover;
+}
+
+
+
+
+/* Eid_Namaz_Table */
+
+.KNT_Taraweeh{
+    font-size:4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#283618;
+    text-align:center;
+    margin:20px 20px 0px 20px;
+}  
+
+
+.Taraweeh_Timings_Table{
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    background-image: url("Images/fajr.jpg");
+    background-size:cover;
+}
+
+
+
+
+
+/* Special_Islamic_Days */
+
+.KNT_Islamic_Days{
+    font-size:4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#283618;
+    text-align:center;
+    margin:20px 20px 0px 20px;
+}  
+
+
+.Special_Islamic_Days{
+    height:800px;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    background-image: url("Images/asr.jpg");
+    background-size:cover;
+}
+
+
+/* Terms And COnditions */
+
+.Terms_and_conditions_heading {
+    text-align:center;
+    font-size:1.1rem;
+}
+
+
+
+.Terms_and_conditions{
+    line-height:50px;
+    font-size:1rem;
+    color:black;
+
+}
+
+
+
+
+/* Halka_Panel */
+
+.Halka_Heading{
+    margin-top:30px;
+    margin-bottom:0px;
+    text-align:center;
+    font-size:4rem;
+    color:#283618;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.Halka_Panel{
+    height:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    background-image:url("Images/asr.jpg");
+    background-size:cover;  
+    flex-direction:row; 
+    text-align:center;
+}
+
+.Halka_Panel a{
+    text-decoration:none;
+}
+
+
+.Halka_Style{
+    height:350px;
+    width:350px;
+    border:0.5px solid #dfdfd6;
+    border-radius:25px;
+    margin:50px;
+}
+
+.Halka_Style pre{
+    font-size:2rem;
+    color:#283618;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.Kondhwa_Budurk{
+    background-image:url("Images/M1.jpg");
+    background-size:cover;
+    color:black;
+    /* background-color:#E5E5E5; */
+}
+
+.Mithanagar{
+    background-image:url("Images/M4.jpg");
+    background-size:cover;
+    /* background-color:#E5E5E5; */
+}
+
+
+.Survey_no_43{
+    background-image:url("Images/zuhr.jpg");
+    background-size:cover;
+    /* background-color:#E5E5E5; */
+}
+
+
+.Kausar_Baugh{
+    background-image:url("Images/M8.jpg");
+    background-size:cover;
+    /* background-color:#E5E5E5; */
+}
+
+
+.Bhagyadoy_nagar{
+    background-image:url("Images/M3.jpg");
+    background-size:cover;
+    /* background-color:#E5E5E5; */
+}
+
+
+.Nawazish{
+    background-image:url("Images/M5.jpg");
+    background-size:cover;
+    /* background-color:#E5E5E5; */
+}
+
+
+
+
+
+
+
+/* Halka Page */
+
+
+.Bhagyadoynagar_Halka{
+    background-image:url("Images/M3.jpg");
+    background-size:cover;
+    background-color:#E5E5E5
+
+}
+
+
+.Kausarbaugh_Halka{
+    background-image:url("Images/M8.jpg");
+    background-size:cover;
+    background-color:#E5E5E5
+}
+
+
+
+.Kondhwa_Budurk_Halka{
+    background-image:url("Images/M1.jpg");
+    background-size:cover;
+    background-color:#E5E5E5
+}
+
+
+
+.Mithanagar_Halka{
+    background-image:url("Images/M4.jpg");
+    background-size:cover;
+    background-color:#E5E5E5
+}
+
+
+.Nawazish_Halka{
+    background-image:url("Images/M5.jpg");
+    background-size:cover;
+    background-color:#E5E5E5
+}
+
+
+.Survey_no_43_Halka{
+    background-image:url("Images/zuhr.jpg");
+    background-size:cover;
+    background-color:#E5E5E5
+}
+
+
+
